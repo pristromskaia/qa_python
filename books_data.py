@@ -22,3 +22,17 @@ ADULT_BOOKS = [
 
 # книга без жанра
 BOOK_WITHOUT_GENRE = "Без жанра"
+
+# книга для избранного
+FAVORITE_BOOK = CHILDREN_BOOKS[0]
+
+# новая книга для добавления
+NEW_BOOK = "Дюна"
+
+# некорректное имя книги
+INVALID_BOOK_NAMES = ["", "A" * 41]
+
+# данные для тестов set_book_genre
+BOOK_FOR_SET_GENRE = "Книга"
+VALID_GENRE_FOR_SET = "Фантастика"
+INVALID_GENRE_FOR_SET = "Роман"
